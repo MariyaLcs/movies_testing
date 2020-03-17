@@ -54,5 +54,5 @@ it("After searching, displays some results", async () => {
   await waitFor(".dropdown-item");
 
   const items = document.querySelectorAll(".dropdown-item");
-  expect(items.length).to.equal(4);
+  expect(items.length).to.equal(3);
 });
